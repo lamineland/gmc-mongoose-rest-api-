@@ -1,0 +1,9 @@
+# Dependencies
+node_modules/
+
+# Private environment variables — never commit them
+config/.env
+.env
+
+# OS noise
+.DS_Store

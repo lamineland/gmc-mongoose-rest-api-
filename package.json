@@ -1,0 +1,24 @@
+{
+  "name": "mongoose-users-api",
+  "version": "1.0.0",
+  "description": "REST API with Express and Mongoose: full CRUD on a User model",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js && node --check models/User.js"
+  },
+  "keywords": [
+    "express",
+    "mongoose",
+    "rest-api",
+    "crud"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "mongoose": "^6.13.12"
+  }
+}
